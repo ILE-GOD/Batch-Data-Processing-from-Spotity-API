@@ -21,10 +21,8 @@ It demonstrates real-world data engineering concepts such as:
 Spotify API → Authentication → Paginated API Calls → Data Processing → JSON Output Storage
 
 ---
-
 ## 📁 Project Structure
 
-```text
 spotify-batch-pipeline/
 │
 ├── docker-compose.yml
@@ -55,6 +53,7 @@ CLIENT_ID=your_spotify_client_id
 CLIENT_SECRET=your_spotify_client_secret
 ⚠️ Not to be pushed .env to GitHub. It is ignored using .gitignore.
 
+---
 
 🐳 Running with Docker
 Build and run the pipeline:
@@ -72,6 +71,7 @@ Fetch album tracks using pagination
 
 Save results into src/output/
 
+---
 
 📤 Output
 The pipeline creates timestamped JSON files:
@@ -87,6 +87,7 @@ Screenshot of Output:
 
 ![output_screenshot](images/output_screenshot.png)
 
+---
 
 ⚙ Key Features
 Spotify Client Credentials Authentication
@@ -103,6 +104,8 @@ Dockerized execution
 
 Timestamped batch output
 
+---
+
 🧠 Future Improvements
 Load data into PostgreSQL
 
@@ -116,14 +119,4 @@ Schedule pipeline runs
 
 Add data validation
 
-👨‍💻 Author
-Daniel Okom
-Aspiring Data Engineer
-
-⭐ Acknowledgements
-
-Spotify Web API
-
-Docker
-
-Python Requests
+---
