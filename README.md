@@ -40,7 +40,7 @@ spotify-batch-pipeline/
 │   └── output/
 │
 ├── images/
-│   └── pipeline.png
+│   └── Output_screenshot.PNG
 │
 └── README.md
 
