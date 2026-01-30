@@ -44,6 +44,8 @@ spotify-batch-pipeline/
 │
 └── README.md
 
+---
+
 🔐 Environment Variables
 This project uses Spotify Client Credentials authentication.
 
