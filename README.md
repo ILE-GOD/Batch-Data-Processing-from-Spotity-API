@@ -83,7 +83,7 @@ Track listings per album
 
 Screenshot of Output:
 
-![Output_Screenshot](images/Output_screenshot.PNG)
+![Output Screenshot](images/output_screenshot.png)
 
 
 ⚙ Key Features
