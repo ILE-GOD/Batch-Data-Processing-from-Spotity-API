@@ -21,28 +21,6 @@ It demonstrates real-world data engineering concepts such as:
 Spotify API → Authentication → Paginated API Calls → Data Processing → JSON Output Storage
 
 ---
-## 📁 Project Structure
-
-spotify-batch-pipeline/
-│
-├── docker-compose.yml
-├── Dockerfile
-├── requirements.txt
-├── .env                # NOT committed to GitHub
-├── .env.example        # Template for secrets
-│
-├── src/
-│   ├── authentication.py
-│   ├── endpoint.py
-│   ├── main.py
-│   └── output/
-│
-├── images/
-│   └── output_screenshot.png
-│
-└── README.md
-
----
 
 🔐 Environment Variables
 This project uses Spotify Client Credentials authentication.
