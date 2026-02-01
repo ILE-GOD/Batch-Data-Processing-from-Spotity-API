@@ -39,15 +39,15 @@ Build and run the pipeline:
 docker compose up --build
 This will:
 
-Build the container
+- Build the container
 
-Authenticate with Spotify
+- Authenticate with Spotify
 
-Fetch new releases
+- Fetch new releases
 
-Fetch album tracks using pagination
+- Fetch album tracks using pagination
 
-Save results into src/output/
+- Save results into src/output/
 
 ---
 
@@ -68,33 +68,33 @@ Screenshot of Output:
 ---
 
 ⚙ Key Features
-Spotify Client Credentials Authentication
+- Spotify Client Credentials Authentication
 
-Automatic token refresh
+- Automatic token refresh
 
-Pagination handling
+- Pagination handling
 
-Rate limiting protection
+- Rate limiting protection
 
-Secure secrets handling
+- Secure secrets handling
 
-Dockerized execution
+- Dockerized execution
 
-Timestamped batch output
+- Timestamped batch output
 
 ---
 
 🧠 Future Improvements
-Load data into PostgreSQL
+- Load data into PostgreSQL
 
-Add Airflow orchestration
+- Add Airflow orchestration
 
-Add logging and monitoring
+- Add logging and monitoring
 
-Transform data into analytics tables
+- Transform data into analytics tables
 
-Schedule pipeline runs
+- Schedule pipeline runs
 
-Add data validation
+- Add data validation
 
 ---
